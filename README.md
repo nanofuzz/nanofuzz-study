@@ -1,2 +1,3 @@
-# nanofuzz-study
-Examples for a user study on https://github.com/penrose/nanofuzz
+# NaNofuzz
+
+Examples for a user study on [NaNofuzz](https://github.com/penrose/nanofuzz).
