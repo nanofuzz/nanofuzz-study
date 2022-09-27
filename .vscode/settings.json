@@ -1,0 +1,4 @@
+{
+  // https://unix.stackexchange.com/a/629504
+  "jestrunner.jestCommand": "JEST_JUNIT_OUTPUT_FILE=telemetry/junit-$(date -u +'%Y-%m-%dT%H:%M:%SZ').xml node node_modules/.bin/jest"
+}
