@@ -1,3 +1,3 @@
-# NaNofuzz study
+# Usable Testing Study
 
-Examples for a user study on [NaNofuzz](https://github.com/penrose/nanofuzz).
+Examples and tutorials for a user study on Usable Testing.
