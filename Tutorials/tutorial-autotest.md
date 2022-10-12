@@ -67,7 +67,9 @@ Click the `Test` button in the new window.
 
 The test results are shown below and are organized according to which tests passed and which ones failed.
 
-Review the results. Did any tests fail? How can you tell they failed?
+> **Tip**: If only the "Passed" tab is shown, then no tests failed.
+
+Review the results. Did any tests fail?  
 
 ## Exercise 2
 
