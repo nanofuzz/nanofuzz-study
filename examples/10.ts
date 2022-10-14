@@ -4,17 +4,14 @@
  * The Gram-Schmidt procedure finds an orthonormal basis for a vector space given a
  * set of vectors that span it. As an example, the vectors (4,0,0) and (-2,3,0) span
  * a two-dimensional subspace. Applying the Gram-Schmidt procedure to these vectors
- * would yield a new pair of vectors: (1,0,0) and (0,1,0).  These new vectors span
+ * would yield a new pair of vectors: (1,0,0) and (0,1,0). These new vectors span
  * the same subspace as the originals, but they are orthogonal and have length one.
  *
  * Note: A previous routine (not included here) ensures:
  *  - The vectors contain finite integers >= 0 that are neither null nor NaN.
  *  - The input vectors are all of the same length.
- *  - The input vectors are NOT linerally dependent, meaning no input vector is a
- *    multiple of any other input vector. (i.e., [1,2,0] and [2,4,0] are linearly
- *    dependent) and would NOT be valid input to this function.
  *
- * @param matrix array of finite integer vectors w/contents >= 0 where no input vector is a multiple of any other input vector
+ * @param matrix array of finite integer vectors w/contents >= 0
  * @returns array of vectors that span the same subspace as the input vectors
  */
 export function gramSchmidt(matrix: number[][]): number[][] {
@@ -44,8 +41,6 @@ function gramSchmidtHelper(matrix: number[][]): number[][] {
   }
 }
 
-
-
 function normalize(vector: number[]): number[] {
   const multiple = Math.sqrt(getDotProd(vector, vector));
   return multiply(1 / multiple, vector);
@@ -65,7 +60,7 @@ function project(newVec: number[], vector: number[]): number[] {
 }
 
 function multiply(dotProd: number, vec: number[]): number[] {
-  const resVec = [];
+  const resVec:number[] = [];
   for (let i = 0; i < vec.length; i++) resVec.push(dotProd * vec[i]);
   return resVec;
 }
@@ -80,16 +75,21 @@ function subtract(resVec: number[], currentVec: number[]): number[] {
 /**
  * Post-Task Activity
  * ------------------
- * 1. Please list all the bug(s) you found in the above code. 
- *     - Specify both the input value(s) AND the erroneous result.
- *     - If you found multiple bugs, make as many entries as you need.
- *     - If you found no bugs, skip this question.
+ * Please identify input/output pairs where the output includes:
+ *       NaN, null, undefined, infinity, runtime exception, 
+ *       or the function does not appear to terminate.
+ *        
+ * 1. List all input/output pair(s) you found, if any.
+ *     - Specify both the input value(s) AND the output value(s).
+ *     - If you found multiple pairs, make as many entries as you need.
+ *     - If you found no pairs, indicate "none".
+ *     - You do not need to explain further.
  * 
- *   Buggy Input : 
- *   Buggy Output: 
+ *   Input : 
+ *   Output: 
  * 
  * 2. Please X the box that describes how confident you are that you 
- *    accurately found all the bugs in the code above.
+ *    accurately found all the pairs in the code above.
  * 
  *       1             2             3             4             5 
  *   Not at all     Slightly      Somewhat      Moderately    Extremely

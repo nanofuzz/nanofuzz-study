@@ -4,8 +4,8 @@
  * Sums an array of dinner expenses.  If `total` is passed in as a parameter,
  * use it as the starting total.
  *
- * @param dinners Array of dinner costs. These costs are defined, finite values.
- * @param total Optional starting total.  If provided, these costs should be defined, finite values.
+ * @param dinners Array of 0..n finite numbers (may be positive, negative, or zero).
+ * @param total Optional finite number that is the starting total. (otherwise starting total is 0.0)
  * @returns The sum of the dinner expenses + the input total, if present.
  */
 export function totalDinnerExpenses(dinners: number[], total?: any): number {
@@ -16,16 +16,21 @@ export function totalDinnerExpenses(dinners: number[], total?: any): number {
 /**
  * Post-Task Activity
  * ------------------
- * 1. Please list all the bug(s) you found in the above code. 
- *     - Specify both the input value(s) AND the erroneous result.
- *     - If you found multiple bugs, make as many entries as you need.
- *     - If you found no bugs, skip this question.
+ * Please identify input/output pairs where the output includes:
+ *       NaN, null, undefined, infinity, runtime exception, 
+ *       or the function does not appear to terminate.
+ *        
+ * 1. List all input/output pair(s) you found, if any.
+ *     - Specify both the input value(s) AND the output value(s).
+ *     - If you found multiple pairs, make as many entries as you need.
+ *     - If you found no pairs, indicate "none".
+ *     - You do not need to explain further.
  * 
- *   Buggy Input : 
- *   Buggy Output: 
+ *   Input : 
+ *   Output: 
  * 
  * 2. Please X the box that describes how confident you are that you 
- *    accurately found all the bugs in the code above.
+ *    accurately found all the pairs in the code above.
  * 
  *       1             2             3             4             5 
  *   Not at all     Slightly      Somewhat      Moderately    Extremely

@@ -6,9 +6,9 @@
  *   `a x ≡ 1 ( mod m )`
  * In other words, the remainder after dividing `ax` by the integer `m` is 1
  *
- * @param a integer
- * @param m integer modulus
- * @returns an integer such that ax % m = 1
+ * @param a finite integer > 0
+ * @param m finite integer > 0 (modulus)
+ * @returns a finite integer such that ax % m = 1
  */
 export function modInv(a: number, m: number): number {
   let d = 0;
