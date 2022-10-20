@@ -1,7 +1,6 @@
 import { sortByWinLoss } from "./7";
 
 describe("7", () => {
-  // This test passes
   test("7a", () => {
     expect(
       sortByWinLoss([
