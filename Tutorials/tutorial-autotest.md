@@ -75,11 +75,11 @@ Review the results. Did any tests fail?
 
 Inside the AutoTest window, change some of the parameters such as `Minimum` and `Maximum` values and click `Test` to observe how your choices change the inputs to the function.
 
-Click the `More options` button. Change the number of tests or the maximum runtime. Click `Test` to observe how the number of tests and the tool's runtime changes.
+Click the `Pin` button beside a couple tests. Click `Test` again. Notice that all `Pinned` tests you selected are saved and float to the top so they are easy to find.
 
 ## Conclusion
 
-Unit testing with AutoTest is as simple as clicking `AutoTest` and then clicking `Test`.
+Unit testing with AutoTest is as simple as clicking `AutoTest` and then clicking `Test`. Then `Pin` any interesting tests you find.
 
 > **Tip**: When encountering a new function to test, immediately start AutoTest and run it with the default settings to get familiar with the function under test.
 
