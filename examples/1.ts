@@ -23,14 +23,11 @@ export function minValue(
  *       NaN, null, undefined, infinity, runtime exception, 
  *       or the function does not appear to terminate.
  *        
- * 1. List all input/output pair(s) you found, if any.
- *     - Specify both the input value(s) AND the output value(s).
- *     - If you found multiple pairs, make as many entries as you need.
- *     - If you found no pairs, indicate "none".
+ * 1. Provide test case(s) for the input/output pair(s) you found, if any.
+ *     - AutoTest: Select the example test case(s) in the AutoTest screen
+ *     - Jest: Include the example test case(s) in ##.test.ts
+ *     - If you found no pairs, select/include no test cases.
  *     - You do not need to explain further.
- * 
- *   Input : 
- *   Output: 
  * 
  * 2. Please X the box that describes how confident you are that you 
  *    accurately found all the pairs in the code above.

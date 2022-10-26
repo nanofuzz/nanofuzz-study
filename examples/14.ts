@@ -29,16 +29,18 @@ export function modInv(a: number, m: number): number {
 /**
  * Post-Task Activity
  * ------------------
- * 1. Please list all the bug(s) you found in the above code. 
- *     - Specify both the input value(s) AND the erroneous result.
- *     - If you found multiple bugs, make as many entries as you need.
- *     - If you found no bugs, skip this question.
- * 
- *   Buggy Input : 
- *   Buggy Output: 
+ * Please identify input/output pairs where the output includes:
+ *       NaN, null, undefined, infinity, runtime exception, 
+ *       or the function does not appear to terminate.
+ *        
+ * 1. Provide test case(s) for the input/output pair(s) you found, if any.
+ *     - AutoTest: Select the example test case(s) in the AutoTest screen
+ *     - Jest: Include the example test case(s) in ##.test.ts
+ *     - If you found no pairs, select/include no test cases.
+ *     - You do not need to explain further.
  * 
  * 2. Please X the box that describes how confident you are that you 
- *    accurately found all the bugs in the code above.
+ *    accurately found all the pairs in the code above.
  * 
  *       1             2             3             4             5 
  *   Not at all     Slightly      Somewhat      Moderately    Extremely
