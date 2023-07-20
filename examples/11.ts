@@ -28,11 +28,11 @@ export function idMatrix(n: number): string | number | number[] | number[][] {
 /**
  * Post-Task Activity
  * ------------------
- * Please identify input/output pairs where the output includes:
+ * Please review the test cases you saved where the output includes:
  *       NaN, null, undefined, infinity, runtime exception, 
  *       or the function does not appear to terminate.
  *        
- * 1. List all input/output pair(s) you found, if any.
+ * 1. List the input/output pair(s) you found, if any.
  *     - Specify both the input value(s) AND the output value(s).
  *     - If you found multiple pairs, make as many entries as you need.
  *     - If you found no pairs, indicate "none".

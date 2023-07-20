@@ -4,7 +4,7 @@ AutoTest is a useful tool for quickly unit testing Typescript programs.
 
 ## How to use AutoTest:
 
-1. Click the `AutoTest` button above any function.
+1. Click the `AutoTest` button above any `export`ed function.
 2. _(Optional)_ Adapt the range parameters if needed
 3. Click `Test`
 4. Inspect the results
@@ -28,7 +28,7 @@ In the right pane:
 
 1. The range of input values for `a` (`0` to `100`)
 2. The range of input values for `b` (`0` to `100`)
-3. The type of number (`integer`s or floats)
+3. The type of number (`integers` or `floats`)
 4. The `More options` button
 5. The `Test` button
 
@@ -67,19 +67,19 @@ Click the `Test` button in the new window.
 
 The test results are shown below and are organized according to which tests passed and which ones failed.
 
-> **Tip**: If only the "Passed" tab is shown, then no tests failed.
+> **Tip**: If only the `Passed` tab is shown, then no tests failed.
 
-Review the results. Did any tests fail?  
+Review the results. Did any tests fail?
 
 ## Exercise 2
 
 Inside the AutoTest window, change some of the parameters such as `Minimum` and `Maximum` values and click `Test` to observe how your choices change the inputs to the function.
 
-Click the `More options` button. Change the number of tests or the maximum runtime. Click `Test` to observe how the number of tests and the tool's runtime changes.
+Click the `Pin` button beside two tests. Click `Test` again. Notice the two `Pinned` tests are saved and float to the top of the grid.
 
 ## Conclusion
 
-Unit testing with AutoTest is as simple as clicking `AutoTest` and then clicking `Test`.
+Unit testing with AutoTest is as simple as clicking `AutoTest` and then clicking `Test`. Then `Pin` any interesting tests you find.
 
 > **Tip**: When encountering a new function to test, immediately start AutoTest and run it with the default settings to get familiar with the function under test.
 
